@@ -1,0 +1,16 @@
+trial,heuristic,success,path_len,nodes_expanded,nodes_generated,open_list_max,time_sec
+1,zero,yes,99,1971,1971,53,0.17318
+1,manhattan,yes,99,502,710,211,0.063952
+1,euclidean,yes,99,1754,1811,83,0.208316
+2,zero,yes,99,1975,1976,55,0.16924
+2,manhattan,yes,99,652,890,241,0.084999
+2,euclidean,yes,99,1798,1851,80,0.173561
+3,zero,yes,99,2012,2012,53,0.172551
+3,manhattan,yes,99,547,732,187,0.065721
+3,euclidean,yes,99,1826,1886,89,0.167088
+4,zero,yes,99,1987,1987,61,0.168129
+4,manhattan,yes,99,961,1296,339,0.136111
+4,euclidean,yes,99,1841,1903,81,0.16708
+5,zero,yes,99,1962,1964,52,0.209595
+5,manhattan,yes,99,395,508,118,0.041248
+5,euclidean,yes,99,1791,1834,73,0.17121

@@ -1,0 +1,16 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+gnk_100,1,astar_null,7,15,yes,8,33,99,0.000549,100,200,0.0404
+gnk_100,1,astar_manhattan,7,15,yes,8,33,99,0.000611,100,200,0.0404
+gnk_100,1,astar_euclidean,7,15,yes,8,33,99,0.000628,100,200,0.0404
+gnk_100,1,bfs,7,15,yes,8,0,100,3.5e-05,100,200,0.0404
+gnk_100,1,dfs,7,15,yes,20,0,22,1.5e-05,100,200,0.0404
+gnk_100,2,astar_null,7,11,yes,7,36,98,0.000605,100,200,0.0404
+gnk_100,2,astar_manhattan,7,11,yes,7,36,98,0.0007,100,200,0.0404
+gnk_100,2,astar_euclidean,7,11,yes,7,36,98,0.000719,100,200,0.0404
+gnk_100,2,bfs,7,11,yes,7,0,99,3.6e-05,100,200,0.0404
+gnk_100,2,dfs,7,11,yes,31,0,32,2.6e-05,100,200,0.0404
+gnk_100,3,astar_null,4,77,yes,8,39,98,0.000609,100,200,0.0404
+gnk_100,3,astar_manhattan,4,77,yes,8,39,98,0.000733,100,200,0.0404
+gnk_100,3,astar_euclidean,4,77,yes,8,39,98,0.000752,100,200,0.0404
+gnk_100,3,bfs,4,77,yes,8,0,99,4.1e-05,100,200,0.0404
+gnk_100,3,dfs,4,77,yes,54,0,83,4.2e-05,100,200,0.0404

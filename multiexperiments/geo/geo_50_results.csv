@@ -1,0 +1,16 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+geo_50,1,astar_null,1,4,yes,7,11,49,0.000232,50,184,0.1502
+geo_50,1,astar_manhattan,1,4,yes,7,11,48,0.000245,50,184,0.1502
+geo_50,1,astar_euclidean,1,4,yes,7,11,49,0.000286,50,184,0.1502
+geo_50,1,bfs,1,4,yes,7,0,50,2.4e-05,50,184,0.1502
+geo_50,1,dfs,1,4,yes,27,0,34,2.4e-05,50,184,0.1502
+geo_50,2,astar_null,9,19,yes,8,13,49,0.00024,50,191,0.1559
+geo_50,2,astar_manhattan,9,19,yes,8,13,49,0.000242,50,191,0.1559
+geo_50,2,astar_euclidean,9,19,yes,8,13,49,0.000276,50,191,0.1559
+geo_50,2,bfs,9,19,yes,8,0,50,2.2e-05,50,191,0.1559
+geo_50,2,dfs,9,19,yes,24,0,26,2.1e-05,50,191,0.1559
+geo_50,3,astar_null,28,33,yes,8,14,45,0.000247,50,221,0.1804
+geo_50,3,astar_manhattan,28,33,yes,8,14,45,0.000256,50,221,0.1804
+geo_50,3,astar_euclidean,28,33,yes,8,14,45,0.000303,50,221,0.1804
+geo_50,3,bfs,28,33,yes,8,0,48,2.4e-05,50,221,0.1804
+geo_50,3,dfs,28,33,yes,31,0,30,2.7e-05,50,221,0.1804

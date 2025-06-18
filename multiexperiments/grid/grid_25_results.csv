@@ -1,0 +1,16 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+grid_25,1,astar_null,4,20,yes,9,39,21,9.7e-05,25,30,0.1
+grid_25,1,astar_manhattan,4,20,yes,9,39,21,8.8e-05,25,30,0.1
+grid_25,1,astar_euclidean,4,20,yes,9,39,20,0.000102,25,30,0.1
+grid_25,1,bfs,4,20,yes,9,0,22,1.8e-05,25,30,0.1
+grid_25,1,dfs,4,20,yes,15,0,16,1.3e-05,25,30,0.1
+grid_25,2,astar_null,20,24,yes,9,40,24,5.7e-05,25,34,0.1133
+grid_25,2,astar_manhattan,20,24,yes,9,40,21,5.3e-05,25,34,0.1133
+grid_25,2,astar_euclidean,20,24,yes,9,40,21,5.6e-05,25,34,0.1133
+grid_25,2,bfs,20,24,yes,9,0,25,1.2e-05,25,34,0.1133
+grid_25,2,dfs,20,24,yes,11,0,10,6e-06,25,34,0.1133
+grid_25,3,astar_null,14,22,yes,9,32,21,5.1e-05,25,29,0.0967
+grid_25,3,astar_manhattan,14,22,yes,9,32,21,4.7e-05,25,29,0.0967
+grid_25,3,astar_euclidean,14,22,yes,9,32,21,4.9e-05,25,29,0.0967
+grid_25,3,bfs,14,22,yes,9,0,22,1.1e-05,25,29,0.0967
+grid_25,3,dfs,14,22,yes,9,0,8,5e-06,25,29,0.0967

@@ -1,0 +1,16 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+gnp_25,1,astar_null,19,23,yes,3,18,2,1.3e-05,25,5,0.0167
+gnp_25,1,astar_manhattan,19,23,yes,3,18,2,1.4e-05,25,5,0.0167
+gnp_25,1,astar_euclidean,19,23,yes,3,18,2,1.3e-05,25,5,0.0167
+gnp_25,1,bfs,19,23,yes,3,0,3,5e-06,25,5,0.0167
+gnp_25,1,dfs,19,23,yes,3,0,2,2e-06,25,5,0.0167
+gnp_25,2,astar_null,0,12,yes,3,13,2,1.1e-05,25,7,0.0233
+gnp_25,2,astar_manhattan,0,12,yes,3,13,2,1.1e-05,25,7,0.0233
+gnp_25,2,astar_euclidean,0,12,yes,3,13,2,8e-06,25,7,0.0233
+gnp_25,2,bfs,0,12,yes,3,0,3,5e-06,25,7,0.0233
+gnp_25,2,dfs,0,12,yes,3,0,2,3e-06,25,7,0.0233
+gnp_25,3,astar_null,0,12,yes,6,27,5,1.5e-05,25,10,0.0333
+gnp_25,3,astar_manhattan,0,12,yes,6,27,5,1.5e-05,25,10,0.0333
+gnp_25,3,astar_euclidean,0,12,yes,6,27,5,1.4e-05,25,10,0.0333
+gnp_25,3,bfs,0,12,yes,6,0,6,5e-06,25,10,0.0333
+gnp_25,3,dfs,0,12,yes,6,0,5,4e-06,25,10,0.0333
