@@ -63,17 +63,38 @@ plt.tight_layout()
 plt.savefig(os.path.join(output_dir, "barplot_nodi_espansi_per_algoritmo.png"))
 plt.close()
 
+# Barplot: Costo medio del cammino (path_cost)
+plt.figure(figsize=(10, 6))
+sns.barplot(data=df_plot, x="algo", y="path_cost", hue="graph_type", estimator="mean", errorbar="sd")
+plt.title("Costo medio del cammino per algoritmo e tipo di grafo")
+plt.xlabel("Algoritmo")
+plt.ylabel("Costo del cammino")
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "barplot_pathcost_per_algoritmo.png"))
+plt.close()
+
+# (Opzionale) Barplot: Lunghezza cammino (path_len)
+plt.figure(figsize=(10, 6))
+sns.barplot(data=df_plot, x="algo", y="path_len", hue="graph_type", estimator="mean", errorbar="sd")
+plt.title("Lunghezza media del cammino (path_len) per algoritmo e tipo di grafo")
+plt.xlabel("Algoritmo")
+plt.ylabel("Lunghezza del cammino")
+plt.tight_layout()
+plt.savefig(os.path.join(output_dir, "barplot_pathlen_per_algoritmo.png"))
+plt.close()
+
+
 # Scatter separati per tipo di grafo
-for gtype in df_plot["graph_type"].unique():
-    df_g = df_plot[df_plot["graph_type"] == gtype]
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(data=df_g, x="path_cost", y="nodes_expanded", hue="algo", style="algo", s=100)
-    plt.title(f"Scatter: Costo vs Nodi Espansi – {gtype.capitalize()}")
-    plt.xlabel("Costo del cammino")
-    plt.ylabel("Nodi espansi")
-    plt.grid(True)
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f"scatter_pathcost_nodiexp_{gtype}.png"))
-    plt.close()
+# for gtype in df_plot["graph_type"].unique():
+#     df_g = df_plot[df_plot["graph_type"] == gtype]
+#     plt.figure(figsize=(10, 6))
+#     sns.scatterplot(data=df_g, x="path_cost", y="nodes_expanded", hue="algo", style="algo", s=100)
+#     plt.title(f"Scatter: Costo vs Nodi Espansi – {gtype.capitalize()}")
+#     plt.xlabel("Costo del cammino")
+#     plt.ylabel("Nodi espansi")
+#     plt.grid(True)
+#     plt.tight_layout()
+#     plt.savefig(os.path.join(output_dir, f"scatter_pathcost_nodiexp_{gtype}.png"))
+#     plt.close()
 
 print(f" Grafici salvati nella cartella: {output_dir}")
