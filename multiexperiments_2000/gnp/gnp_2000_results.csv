@@ -1,0 +1,4 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+gnp_2000,1,astar_null,0,370,yes,6,7,1999,3.559333,2000,60078,0.0301
+gnp_2000,1,astar_manhattan,0,370,yes,7,7,1934,3.722831,2000,60078,0.0301
+gnp_2000,1,astar_euclidean,0,370,yes,6,7,1964,3.590758,2000,60078,0.0301

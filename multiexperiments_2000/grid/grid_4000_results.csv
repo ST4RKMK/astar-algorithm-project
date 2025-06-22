@@ -1,0 +1,4 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+grid_4000,1,astar_null,188,3906,yes,125,472,3960,0.0309,3969,6311,0.0008
+grid_4000,1,astar_manhattan,188,3906,yes,125,472,3960,0.047386,3969,6311,0.0008
+grid_4000,1,astar_euclidean,188,3906,yes,125,472,3960,0.033891,3969,6311,0.0008

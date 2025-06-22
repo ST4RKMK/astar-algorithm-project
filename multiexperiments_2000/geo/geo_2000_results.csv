@@ -1,0 +1,5 @@
+graph,trial,algo,start,goal,success,path_len,path_cost,nodes_expanded,time_sec,n_nodes,n_edges,density
+geo_2000,1,astar_null,0,0,yes,1,0,0,3e-05,2000,321025,0.1606
+geo_2000,1,astar_manhattan,0,0,yes,1,0,0,1e-05,2000,321025,0.1606
+geo_2000,1,astar_euclidean,0,0,yes,1,0,0,5e-06,2000,321025,0.1606
+geo_2000,1,astar_manhattan,0,0,yes,1,0,0,3.1e-05,2000,314209,0.1572
