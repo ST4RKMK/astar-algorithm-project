@@ -3,7 +3,7 @@ Analisi e Implementazione dell'Algoritmo A*
 Questo progetto affronta lo studio approfondito dell'algoritmo A*, con implementazione in Python e analisi sperimentale. Sono stati condotti test su **griglie bidimensionali** e **grafi generati automaticamente**, al fine di confrontare diverse euristiche e valutare le prestazioni computazionali dell’algoritmo.
 
 Struttura del progetto
-
+```bash
 PythonProject3/
 ├── 2D/                         # Esperimenti su griglie bidimensionali
 │   ├── main2d.py               # Entry point per test su griglie
@@ -24,7 +24,7 @@ PythonProject3/
 ├── results_*.csv               # File di output con risultati
 ├── plots/, multiexperiments/  # Cartelle con grafici
 └── README.md                   # Questo file
-
+```
 
 Requisiti
 
