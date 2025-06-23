@@ -17,6 +17,8 @@ PythonProject3/
 │   ├── astar_graph.py          # A* su grafi generici
 │   ├── generate_graph.py       # Costruzione grafi (geo, gnk, gnp, grid)
 │   ├── scaling_experiment.py   # Esperimenti di scalabilità
+|   ├── analizer.py             # Script per analisi avanzata su grafi (tempo, nodi, costi, path_len)
+|   ├── comparison.py           # Confronto tra varianti di A* in funzione della dimensione del grafo
 │
 ├── Prove vecchie/              # Codici precedenti non più attivi
 │   └── [vecchi script per grafi]
